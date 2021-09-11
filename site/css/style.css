@@ -113,15 +113,15 @@
         
         #presentation {
             color: aliceblue;
-            /* text-align: center;
-    margin: auto;
-    align-items: center;
-    justify-content: center; */
             height: 60vh;
             display: grid;
             place-content: center;
             place-items: center;
             text-align: center;
+            width: 100%;
+            margin: auto;
+            align-items: center;
+            justify-content: center;
         }
         
         #presentation .first {
@@ -165,11 +165,6 @@
             font-size: 10px;
             margin-top: 5px;
         }
-        /*end presentation*/
-        /*info-header*/
-        /* header div.row{
-   margin-top: 5px;  
-} */
         
         .info-header {
             background-color: rgb(0, 0, 0, 0.5);
@@ -529,7 +524,9 @@
         /*end prices*/
         
         #show .description {
+            text-align: center;
             padding-top: 40px;
+            margin: auto;
         }
         
         #show .description h1 {
@@ -574,10 +571,8 @@
         
         footer {
             background-color: #EBEDF2;
+            padding: 20px 5px;
         }
-        /* #footer {
-    padding: 40px 60px;
-} */
         
         footer p {
             font-size: 12px;
@@ -643,7 +638,8 @@
             } */
             /*prices*/
             .prices {
-                margin: 0 auto;
+                max-width: 900px;
+                margin: auto;
             }
             .prices .header {
                 position: sticky;
@@ -704,6 +700,10 @@
             /*sport*/
             /*end sport*/
             /*prices*/
+            .prices {
+                max-width: 800px;
+                margin: auto;
+            }
             .select {
                 display: none;
             }
@@ -836,21 +836,8 @@
                 font-size: 18px;
                 text-align: center;
             }
-            #presentation .first {
-                /* margin: auto;
-                text-align: center;
-                padding-left: 120px; */
-            }
             #presentation .third {
                 display: none;
-            }
-            #presentation .final {
-                /* margin: 10px; */
-            }
-            #presentation {
-                /* height: 50vh; */
-                /* padding-bottom: 100px; */
-                /* height: 35vh; */
             }
             #presentation img {
                 width: 100px;
@@ -1022,6 +1009,10 @@
                 padding: 10px;
             }
             /*end modal*/
+            /*footer*/
+            footer {
+                margin: auto;
+            }
         }
         
         @media (max-width:350px) {
@@ -1036,12 +1027,5 @@
         @media (max-height:650px) {
             #header {
                 height: 120vh;
-            }
-            #presentation {
-                width: 100%;
-                text-align: center;
-                margin: auto;
-                align-items: center;
-                justify-content: center;
             }
         }
