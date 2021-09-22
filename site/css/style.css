@@ -1015,7 +1015,7 @@
             }
         }
         
-        @media (max-width:350px) {
+        @media (max-width:410px) {
             .detel {
                 display: none;
             }
@@ -1026,6 +1026,6 @@
         
         @media (max-height:650px) {
             #header {
-                height: 120vh;
+                height: 110vh;
             }
         }
