@@ -12,6 +12,7 @@
         }
         
         body {
+            overflow-x: hidden;
             font-family: 'arial', sans-serif;
             text-transform: capitalize;
             margin: 0;

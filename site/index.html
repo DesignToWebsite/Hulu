@@ -11,9 +11,10 @@
     <!-- add an icon -->
     <link rel="icon" href="favicon.ico">
     <!-- end -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
-
     <link rel="stylesheet" href="font/css/all.css">
 </head>
 
@@ -55,7 +56,7 @@
         </nav>
 
         <!-- presentation -->
-        <div id="presentation">
+        <div id="presentation" data-aos="fade-up" data-aos-duration="3000">
             <p class="text-lowercase first">try up to one month free</p>
             <img src="img/logo.png" alt="">
             <p class="second">Watch thousands of TV shows and movies.</p>
@@ -109,7 +110,7 @@
     <!--end header-->
 
     <!--Catalogue-->
-    <div id="plans">
+    <div id="plans" data-aos="fade-left" data-aos-duration="3000">
         <div class="descri">
             <p class="first">INCLUDED IN ALL PLANS</p>
             <h1>All The TV You Love </h1>
@@ -150,7 +151,7 @@
     </div>
     <!--end catalogue-->
     <div id="live">
-        <div class="content">
+        <div class="content" data-aos="fade-right" data-aos-duration="3000">
             <p class="text-uppercase green">HULU + LIVE TV</p>
             <h2>Live TV Makes It Better</h2>
             <p class="first">
@@ -172,12 +173,12 @@
 
 
     <!-- prices -->
-    <div class="select">
+    <div class="select" data-aos="fade-left" data-aos-duration="3000">
         <h1>Select Your Plan</h1>
         <p>No hidden fees, equipment rentals, or installation appointments.</p>
         <p class="switch">Switch plans or cancel anytime.**</p>
     </div>
-    <div class="prices">
+    <div class="prices" data-aos="fade-right" data-aos-duration="3000">
 
         <div class="row header">
             <div class="desc col-lg-5">
@@ -677,7 +678,7 @@
 
 
     <footer>
-        <div class="container">
+        <div class="container" data-aos="fade-up-right" data-aos-duration="3000">
             <div class="row">
                 <div class="col-lg-8 col-md-12">
 
@@ -751,7 +752,10 @@
         </div>
     </footer>
 
-
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
     <script src="./js/bootstrap.bundle.min.js"></script>
     <script src="./js/js.js"></script>
 
